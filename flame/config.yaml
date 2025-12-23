@@ -14,8 +14,7 @@ ports:
 options:
   password: ""
 schema:
-  password:
-    type: password
+  password: password
 environment:
   PORT: "5005"
   PASSWORD: "${OPTIONS_PASSWORD}"
