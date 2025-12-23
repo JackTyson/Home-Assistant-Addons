@@ -17,7 +17,7 @@ schema:
   password: password
 environment:
   PORT: "5005"
-  PASSWORD:  "{{ options.password }}"
+  PASSWORD:  {{ options.password }}
 map:
   - type: share
     read_only: False
