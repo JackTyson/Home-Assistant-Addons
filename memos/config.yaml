@@ -18,5 +18,8 @@ environment:
   MEMOS_MODE: "prod"
   MEMOS_PORT: "5230"
   MEMOS_ADDR: "0.0.0.0"
-  MEMOS_DATA: "/share/memos"
+  MEMOS_DATA: "/share"
+map:
+  - type: share
+    read_only: False
 image: neosmemo/memos
