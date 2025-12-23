@@ -11,13 +11,12 @@ startup: services
 boot: auto
 host_network: false
 ingress: true
-ingress_port: 8080
-ingress_entry: /
+ingress_port: 5230
 ports:
-  "8081/tcp": 8081
+  "5230/tcp": 5230
 environment:
-  MEMOS_MODE: prod
-  MEMOS_PORT: 8081
-  MEMOS_ADDR: 0.0.0.0
-  MEMOS_DATA: /share/memos
+  MEMOS_MODE: "prod"
+  MEMOS_PORT: "5230"
+  MEMOS_ADDR: "0.0.0.0"
+  MEMOS_DATA: "/share/memos"
 image: neosmemo/memos
