@@ -22,5 +22,5 @@
     "log_level": "list(info,debug,warning,error)",
     "data_path": "str"
   },
-  "image": "ghcr.io/neosmemo/memos:{version}"
+  "image": "ghcr.io/neosmemo/memos:0.25.3"
 }
