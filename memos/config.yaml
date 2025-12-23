@@ -15,10 +15,4 @@ ingress_port: 8080
 environment:
   MEMOS_PORT: "8080"
   MEMOS_DATA_DIR: /share/memos
-options:
-  log_level: info
-  data_path: /share/memos
-schema:
-  log_level: list(info,debug,warning,error)
-  data_path: str
 image: neosmemo/memos
