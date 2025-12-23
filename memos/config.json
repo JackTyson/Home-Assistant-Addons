@@ -3,14 +3,13 @@
   "version": "0.25.3",
   "slug": "memos",
   "description": "Self‑hosted note‑taking service.",
-  "url": "https://github.com/usememos/memoss",
+  "url": "https://github.com/usememos/memos",
   "arch": ["amd64", "aarch64"],
   "startup": "services",
   "boot": "auto",
   "host_network": false,
-  "ports": {
-    "8080/tcp": 8080
-  },
+  "ingress": true,
+  "ingress_port": 8080,
   "environment": {
     "MEMOS_PORT": "8080",
     "MEMOS_DATA_DIR": "/share/memos"
