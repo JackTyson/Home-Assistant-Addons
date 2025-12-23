@@ -14,7 +14,3 @@ This add‑on runs the open‑source **Memos** service (https://github.com/useme
 |--------|-------------|---------|
 | `log_level` | Logging verbosity | `info` |
 | `data_path` | Where to store notes on the host | `/share/memos` |
-
-## Updates
-
-The add‑on pulls the latest `neosmemo/memos` image each time you click **Reload** in the add‑on page.
