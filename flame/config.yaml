@@ -2,7 +2,7 @@ name: Flame
 version: 2.3.1
 stage: experimental
 slug: flame
-description: "Flame is self-hosted startpage for your server with built-in apps and bookmarks editors."
+description: "Flame is self-hosted startpage for your server with built-in apps and bookmarks editors"
 url: https://github.com/pawelmalak/flame
 arch:
   - amd64
