@@ -4,7 +4,6 @@
   "slug": "memos",
   "description": "Self‑hosted note‑taking service.",
   "url": "https://github.com/usememos/memoss",
-  "logo": "https://raw.githubusercontent.com/JackTyson/Home-Assistant-Addons/memos/logo.png",
   "arch": ["amd64", "aarch64"],
   "startup": "services",
   "boot": "auto",
