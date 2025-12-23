@@ -16,8 +16,6 @@ options:
 schema:
   password:
     type: password
-    description: "The password for the flame admin user."
-    required: true
 environment:
   PORT: "5005"
   PASSWORD: "${OPTIONS_PASSWORD}"
