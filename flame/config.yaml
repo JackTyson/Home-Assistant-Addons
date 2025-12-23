@@ -12,7 +12,7 @@ host_network: false
 ports:
   "5005/tcp": 5005
 options:
-  password: ""
+  password: "changeme"
 schema:
   password: password
 environment:
