@@ -4,7 +4,7 @@
   "slug": "memos",
   "description": "Self‑hosted note‑taking service (https://github.com/usememos/memos)",
   "url": "https://github.com/jack-dev/hass-addon-memos",
-  "logo": "https://www.gravatar.com/avatar/51db8415193c0018dd962dd389d7ac82?s=120&r=g&d=404",
+  "logo": "https://raw.githubusercontent.com/JackTyson/Home-Assistant-Addons/memos/logo.png",
   "arch": ["amd64", "aarch64"],
   "startup": "services",
   "boot": "auto",
