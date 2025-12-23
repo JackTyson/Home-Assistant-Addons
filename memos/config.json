@@ -28,6 +28,5 @@
     "log_level": "list(info,debug,warning,error)",
     "data_path": "str"
   },
-
   "image": "neosmemo/memos:0.25.3"
 }
