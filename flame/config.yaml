@@ -1,0 +1,20 @@
+name: Flame
+version: 2.3.1
+stage: experimental
+slug: flame
+description: "Flame is self-hosted startpage for your server with built-in apps and bookmarks editors."
+url: https://github.com/pawelmalak/flame
+arch:
+  - amd64
+startup: services
+boot: auto
+host_network: false
+ports:
+  "5005/tcp": 5005
+environment:
+  PORT: "5005"
+map:
+  - type: share
+    read_only: False
+    path: /app/data
+image: pawelmalak/flame
