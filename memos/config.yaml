@@ -1,0 +1,23 @@
+name: Memos
+version: 0.25.3
+slug: memos
+description: Self‑hosted note‑taking service.
+url: https://github.com/usememos/memos
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+host_network: false
+ingress: true
+ingress_port: 8080
+environment:
+  MEMOS_PORT: "8080"
+  MEMOS_DATA_DIR: /share/memos
+options:
+  log_level: info
+  data_path: /share/memos
+schema:
+  log_level: list(info,debug,warning,error)
+  data_path: str
+image: ghcr.io/neosmemo/memos:0.25.3
