@@ -1,0 +1,30 @@
+{
+  "name": "Memos",
+  "version": "1.0.0",
+  "slug": "memos",
+  "description": "Self‑hosted note‑taking service (https://github.com/usememos/memos)",
+  "arch": ["amd64", "aarch64"],
+  "startup": "services",
+  "boot": "auto",
+  "host_network": false,
+  "ports": {
+    "8080/tcp": 8080
+  },
+  "environment": {
+    "MEMOS_PORT": "8080",
+    "MEMOS_DATA_DIR": "/data",
+    "DATA_PATH": "/share/memos"
+  },
+  "map": [
+    "share:rw"
+  ],
+  "options": {
+    "log_level": "info",
+    "data_path": "/share/memos"
+  },
+  "schema": {
+    "log_level": "list(info,debug,warning,error)",
+    "data_path": "str"
+  },
+  "image": "amj_memos"
+}
