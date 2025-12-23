@@ -13,10 +13,9 @@ ports:
   "5005/tcp": 5005
 schema:
   password:
-    type: "string"
-    description: "Password for the flame admin user."
-    required: true
-    secret: true
+    type: str
+    required: "true"
+    secret: "true"
 environment:
   PORT: "5005"
   PASSWORD: "${OPTIONS_PASSWORD}"
