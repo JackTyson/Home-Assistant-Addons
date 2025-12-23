@@ -14,9 +14,10 @@ ingress: true
 ingress_port: 8080
 ingress_entry: /
 ports:
-  "8080/tcp": 8080
+  "8081/tcp": 8081
 environment:
-  MEMOS_PORT: "8080"
-  MEMOS_HOST: "0.0.0.0"
-  MEMOS_DATA_DIR: /share/memos
+  MEMOS_MODE: prod
+  MEMOS_PORT: 8081
+  MEMOS_ADDR: 0.0.0.0
+  MEMOS_DATA: /share/memos
 image: neosmemo/memos
