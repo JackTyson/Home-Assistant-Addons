@@ -11,11 +11,14 @@ boot: auto
 host_network: false
 ports:
   "5005/tcp": 5005
+options:
+  password: ""
 schema:
   password:
-    type: str
-    required: "true"
-    secret: "true"
+    type: "string"
+    description: "The password for the flame admin user."
+    required: true
+    secret: true
 environment:
   PORT: "5005"
   PASSWORD: "${OPTIONS_PASSWORD}"
