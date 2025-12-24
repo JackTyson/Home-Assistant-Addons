@@ -1,2 +1,2 @@
 # Home Assistant Addons
-A collection of addons for Home Assistant OS that I felt were missing from the main line-up.
+A small curation of addons for Home Assistant that I felt were missing from the main line up.
