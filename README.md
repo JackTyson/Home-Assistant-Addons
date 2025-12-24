@@ -11,16 +11,10 @@ Shoutout to After Hours Coding for their [fantastic guide](https://afterhourscod
 **If you have a request for an addon, please raise an issue and I will look into it for you.** Alternative, use the [above guide](https://afterhourscoding.wordpress.com/2023/01/21/making-your-own-home-assistant-add-on/) along with the [Home Assistant developer documentation](https://developers.home-assistant.io/docs/add-ons/tutorial/) to give it a go yourself!
 
 ## How to add this repository
-Instructions here
-## Contents
-### [it-tools by CorentinTh](https://github.com/CorentinTh/it-tools)
-![Supports aarch64 Architecture][aarch64-shield-yes]
-![Supports amd64 Architecture][amd64-shield-yes]
-![Does not support armhf Architecture][armhf-shield-no]
-![Does not support armv7 Architecture][armv7-shield-no]
-![Does not support i386 Architecture][i386-shield-no]
 
-Collection of handy online tools for developers, with great UX.
+Instructions here
+
+## Contents
 
 ### [Flame by Pawel Malak](https://github.com/pawelmalak/flame)
 ![Supports aarch64 Architecture][aarch64-shield-yes]
@@ -30,6 +24,15 @@ Collection of handy online tools for developers, with great UX.
 ![Does not support i386 Architecture][i386-shield-no]
 
 Flame is self-hosted startpage for your server. Easily manage your apps and bookmarks with built-in editors.
+
+### [it-tools by CorentinTh](https://github.com/CorentinTh/it-tools)
+![Supports aarch64 Architecture][aarch64-shield-yes]
+![Supports amd64 Architecture][amd64-shield-yes]
+![Does not support armhf Architecture][armhf-shield-no]
+![Does not support armv7 Architecture][armv7-shield-no]
+![Does not support i386 Architecture][i386-shield-no]
+
+Collection of handy online tools for developers, with great UX.
 
 
 
