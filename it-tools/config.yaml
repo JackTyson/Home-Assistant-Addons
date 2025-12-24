@@ -1,0 +1,15 @@
+name: IT-Tools
+version: 2024.10.22-7ca5933
+stage: production
+slug: it-tools
+description: "Useful tools for developers and people working in IT"
+url: https://github.com/CorentinTh/it-tools
+arch:
+  - amd64
+  - aarch64
+startup: services
+boot: auto
+host_network: false
+ports:
+  "8080/tcp": 8080
+image: pawelmalak/flame
