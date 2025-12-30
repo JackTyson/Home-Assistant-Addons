@@ -1,6 +1,6 @@
 name: Memos
 version: 0.25.3
-stage: experimental
+stage: stable
 slug: memos
 description: "An open-source, self-hosted note-taking service"
 url: https://github.com/usememos/memos
