@@ -1,0 +1,26 @@
+name: Pocket ID
+version: 1.16.0
+stage: stable
+slug: pocket-id
+description: "An open-source, self-hosted note-taking service"
+url: https://github.com/pocket-id/pocket-id
+arch:
+  - amd64
+  - aarch64
+  - armv7
+startup: services
+boot: auto
+host_network: false
+ingress: false
+# ingress_port: 5230
+ports:
+  "5230/tcp": 5230
+environment:
+  MEMOS_MODE: "prod"
+  MEMOS_PORT: "5230"
+  MEMOS_ADDR: "0.0.0.0"
+  MEMOS_DATA: "/share"
+map:
+  - type: share
+    read_only: False
+image: ghcr.io/pocket-id/pocket-id

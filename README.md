@@ -43,6 +43,18 @@ Collection of handy online tools for developers, with great UX.
 
 An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.
 
+### [Pocket ID by stonith404](https://github.com/pocket-id/pocket-id)
+![Supports aarch64 Architecture][aarch64-shield-yes]
+![Supports amd64 Architecture][amd64-shield-yes]
+![Does not support armhf Architecture][armhf-shield-no]
+![Does not support armv7 Architecture][armv7-shield-yes]
+![Does not support i386 Architecture][i386-shield-no]
+
+Pocket ID is a simple OIDC provider that allows users to authenticate with their passkeys to your services.
+
+
+
+
 
 
 [//]: # (Badges)
